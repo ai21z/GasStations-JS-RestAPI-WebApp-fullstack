@@ -1,0 +1,24 @@
+{
+ "name": "fuelgr",
+ "main": "server.js",
+ "scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1"
+ },
+ "dependencies": {
+  "bcryptjs": "^2.4.3",
+  "body-parser": "^1.13.1",
+  "connect-flash": "^0.1.1",
+  "cookie-parser": "^1.3.5",
+  "dotenv": "^8.2.0",
+  "ejs": "^2.3.2",
+  "express": "^4.13.0",
+  "express-session": "^1.11.3",
+  "moment": "^2.26.0",
+  "morgan": "^1.6.0",
+  "mysql": "^2.7.0",
+  "passport": "^0.2.2",
+  "passport-local": "^1.0.0",
+  "serve-favicon": "^2.5.0",
+  "session-file-store": "^1.4.0"
+ }
+}

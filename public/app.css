@@ -1,0 +1,195 @@
+.navbar{
+  background-color:green; 
+  
+}
+
+.navbar-brand{
+   color: white;
+   
+ }
+
+ .navbar-brand:hover{
+   color: rgb(218, 230, 150);   
+   
+ }
+
+ .nav-link{
+   color: white;
+   
+ }
+
+ .nav-link:hover{
+   color: rgb(218, 230, 150);
+   
+ }
+h1 {
+   text-align:center;
+   margin-bottom: 20px;
+}
+
+h6 {
+   text-align:center;
+   margin-bottom: 20px;
+}
+
+body {
+   color: green;
+   overflow: hidden;
+  
+}
+
+/* Always set the map height explicitly to define the size of the div
+* element that contains the map. */
+#map {
+height: 95%;
+}
+
+/* Optional: Makes the sample page fill the window. */
+html, body {
+   height: 80%;
+   
+   
+}
+
+/* FOOTER */
+#details {
+   margin-top: 35px;
+   text-align:center;
+   color: green;
+}
+
+/* CHARTS */
+#piechart_div {
+   margin-left: 350px;  
+}
+
+#barchart_div{
+   margin-left: 350px;
+} 
+
+/* COUNTERS */
+/* .counter { 
+   background-color:#f5f5f5;
+   padding: 20px 0;
+   border-radius: 50px;
+} */
+
+.count-title {
+   font-size: 20px;
+   font-weight: normal;
+   margin-top: 10px;
+   margin-bottom: 0;
+   text-align: center;
+}
+
+.count-text {
+   font-size: 20px;
+   font-weight: normal;
+   margin-top: 10px;
+   margin-bottom: 0;
+   text-align: center;
+   color: #4ad1e5;
+}
+
+.fa {
+   margin: 0 auto;
+   float: none;
+   display: table;
+   color: #4ad1e5;   
+}
+
+/* CURTAIN MENU */
+ /* The Overlay (background) */
+ .overlay {
+   /* Height & width depends on how you want to reveal the overlay (see JS below) */   
+   height: 100%;
+   width: 0;
+   position: fixed; /* Stay in place */
+   z-index: 1; /* Sit on top */
+   left: 0;
+   top: 0;
+   background-color: rgb(0,0,0); /* Black fallback color */
+   background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
+   overflow-x: hidden; /* Disable horizontal scroll */
+   transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+ }
+ 
+ /* Position the content inside the overlay */
+ .overlay-content {
+   position: relative;
+   top: 25%; /* 25% from the top */
+   width: 100%; /* 100% width */
+   text-align: center; /* Centered text/links */
+   margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+ }
+ 
+ /* The navigation links inside the overlay */
+ .overlay a {
+   padding: 8px;
+   text-decoration: none;
+   font-size: 36px;
+   color: #818181;
+   display: block; /* Display block instead of inline */
+   transition: 0.3s; /* Transition effects on hover (color) */
+ }
+ 
+ /* When you mouse over the navigation links, change their color */
+ .overlay a:hover, .overlay a:focus {
+   color: #f1f1f1;
+ }
+ 
+ /* Position the close button (top right corner) */
+ .overlay .closebtn {
+   position: absolute;
+   top: 20px;
+   right: 45px;
+   font-size: 60px;
+ }
+ 
+ /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+ @media screen and (max-width: 650px) {
+   .overlay a {font-size: 20px}
+   .overlay .closebtn {
+     font-size: 40px;
+     top: 15px;
+     right: 35px;
+   }
+
+   #piechart_div{
+      position: absolute;
+      top: -100px;
+      left:-350px;
+
+   }
+
+   #barchart_div{
+      position: absolute;
+      top:350px;
+      left:-350px; 
+   }
+/* COUNTERS */
+   .count-title {
+      font-size: 10px;
+      font-weight: normal;
+      margin-top: 5px;
+      margin-bottom: 0;
+      text-align: center;
+   }
+   
+   .count-text {
+      font-size: 10px;
+      font-weight: normal;
+      margin-top: 5px;
+      margin-bottom: 0;
+      text-align: center;
+      color: #4ad1e5;
+   }
+   
+   .fa {
+      margin: 0 auto;
+      float: none;
+      display: table;
+      color: #4ad1e5;   
+   }
+
+ } 
